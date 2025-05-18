@@ -21,7 +21,7 @@ Rscript ./numerical/01_SigClust_DEV.R --n=1000 --data="binary" --a=0 # 100 Simul
 
 **Hydra scRNA data** can be found at the [data portal](https://portals.broadinstitute.org/single_cell/study/stem-cell-differentiation-trajectories-in-hydra-resolved-at-single-cell-resolution). We follow the [guideline](https://github.com/cejuliano/hydra_single_cell) here to process the data.
 
-**The EHR datasets** are confidential due to privacy issues. Hierachical clustering with SigClust-DEV can be found in `SHC-GLM.R`. It is important to note that we have not conducted testing for `SHC-GLM.R` via simulation and is solely used for our EHR data analysis (i.e., Figure 5).
+**The EHR datasets** are confidential due to privacy issues. Hierachical clustering with SigClust-DEV can be found in `./applications/SHC-GLM.R`.
 
 ## SigClust for General Non-Gaussian Data
 
